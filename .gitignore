@@ -1,3 +1,8 @@
+.classpath
+.idea/
+HelloWorld.iml
+.project
+
 out/
 *.class
 
