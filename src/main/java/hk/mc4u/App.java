@@ -1,9 +1,18 @@
 package hk.mc4u;
 
-//testing git
-public class Main {
+/**
+ * Hello world!
+ *
+ */
+// testing git
+public class App {
 
     public static void main(String[] args) {
+        App app = new App();
+        app.printout();
+    }
+
+    public void printout() {
         System.out.println("Hello World !!");
         System.out.println("Hello World 2!!");
         System.out.println("Hello World 3!!");
