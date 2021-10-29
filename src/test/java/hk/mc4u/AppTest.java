@@ -1,20 +1,15 @@
 package hk.mc4u;
 
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
+import lombok.extern.slf4j.Slf4j;
+
 public class AppTest {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
+
+	@Test
     public void shouldAnswerWithTrue() {
         App app = new App();
         app.printout();
-        assertTrue(true);
     }
 }
